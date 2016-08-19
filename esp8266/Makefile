@@ -98,6 +98,7 @@ STM_SRC_C = $(addprefix stmhal/,\
 
 EXTMOD_SRC_C = $(addprefix extmod/,\
 	modlwip.c \
+	modsntp.c \
         )
 
 LIB_SRC_C = $(addprefix lib/,\
